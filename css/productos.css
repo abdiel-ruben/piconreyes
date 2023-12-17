@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #118eb8;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacto {
+    display: flex;
+}
+
+.contacto a {
+    margin: 0 10px;
+}
+
+.contacto img {
+    width: 20px;
+    height: 20px;
+}
+
+.banner {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.productos, .servicios {
+    padding: 20px;
+}
+
+.productos ul, .servicios ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos ul li, .servicios ul li {
+    background-color: #fff;
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productos ul li img, .servicios ul li img {
+    width: 100%;
+}
+
+.productos ul li a, .servicios ul li a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+footer {
+    background-color: #0faebc;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}
